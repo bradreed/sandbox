@@ -1,4 +1,4 @@
-# sandbox
+# Git Sandbox
 Deployment strategy testing repo
 
 ## Branches/Environments
