@@ -24,7 +24,9 @@ Connected to Staging Database to allow for test data
 
 ## Deployment Strategy
 Branches (features, enchancements, bug fixes, ) are branched from 'test' 
-(Checkout the 'test' branch then run "git checkout -b 'feature/featurename'")
+> git checkout test 
+> 
+> git checkout -b 'feature/featurename'
 Merge branch into Development and self-test the bug fix or feature
 Merge branch into Test once it is completed and ready for testing. Deliver appropriate stories in Pivotal Tracker to notify the Requester to start testing.
 Once the Requester approves the story/bugfix create a PR to merage the branch into staging. If needed test the feature on staging against production data. Update release note for next scheduled release. 
